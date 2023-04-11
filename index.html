@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .papa {
+                display: block;
+                height: 112px;
+                position: relative;
+            }
+
+            body {
+                background-color: #f5ebdc;
+                margin-left: 0;
+                margin-top: 0;
+            }
+
+            .menu {
+                display: inline-flex;
+                height: 112px;
+                position: sticky;
+            }
+
+            .menu a {
+                padding: 10px;
+            }
+
+            .menu img {
+                width: 40px;
+                padding-top: 0;
+            }
+
+            .menu h1 {
+                float: left;
+            }
+
+            .sector {
+                background-color: #502314;
+                display: flex;
+                overflow-x: auto;
+                position: relative;
+            }
+
+            .sector img {
+                width: 220px;
+                border-radius: 100%;
+                padding: 10px;
+                text-align: center;
+                border: 1px solid #f5ebdc;
+                margin: 10px;
+            }
+            
+            .sector a {
+                text-align: center;
+                font: 500 18px/140% Rotonda;
+                color: #745143;
+            }
+
+            .burgers {
+                display: inline-block;
+                position: sticky;
+            }
+            
+            .burgers a {
+                font-size: 18px;
+                padding: 5px;
+                color: #d60000;
+                font: 500 18px/140% Rotonda;
+            }
+            input {
+                font: 14px/18px Rotonda;
+                padding: 7px 40px;
+                height: 1.7em;
+                background-image: url(https://burgerkingrus.ru/_nuxt/65f97f238bd7d39d6cf0036d33592a6a.svg);
+                background-repeat: no-repeat;
+                background-position: 10px;
+                border-radius: 7px;
+                margin: 15px;
+            }
+
+            .bk_hold {
+                display: inline-flexbox;
+            }
+
+            .bk_hold img {
+                width: 220px;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .bk_hold a {
+                text-align: center;
+                padding: 20px;
+            }
+
+            .finish {
+                background-color: #502314;
+                height: 150px;
+                
+            }
+
+            .finish p {
+                text-align: center;
+                color: cyan;
+                
+            }
+        </style>
+    </head>
+    <body>
+            <header class="menu">
+                <p><h1>В ресторане</h1>
+                Для заказа выбери ресторан
+                </p>
+                <input type="text" placeholder="Введи название блюда">
+                <img src="https://burgerkingrus.ru/_nuxt/85fa0a1c71a8bba230f5de81e911c609.svg" alt="bk">
+                <div>
+                    <a href="https://burgerkingrus.ru/rabota">РАБОТА</a>
+                    <a href="https://burgerkingrus.ru/coupon">КУПОНЫ</a>
+                    <a href="https://burgerkingrus.ru/kingclub">KING CLUB</a>
+                    <a href="https://burgerkingrus.ru/">ВОЙТИ</a>
+                </div>
+            </header>
+            <div class="sector">
+                <a href="/"><img src="https://s3.burgerkingrus.ru/uploads/media/story_details/0001/75/thumb_74658_story_details_desktop_webp.webp" alt="story1">ЧЕДДЕР НАЧОС КИНГ</a>
+                <a href="/"><img src="https://s3.burgerkingrus.ru/uploads/media/story_details/0001/75/thumb_74616_story_details_desktop_webp.webp" alt="story2">АНГУС КАМАМБЕР</a>
+                <a href="/"><img src="https://s3.burgerkingrus.ru/uploads/media/story_details/0001/75/thumb_74689_story_details_desktop_webp.webp" alt="story3">МТС ДЖУНИОР</a>
+                <a href="/"><img src="https://s3.burgerkingrus.ru/uploads/media/story_details/0001/75/thumb_74716_story_details_desktop_webp.webp" alt="story4">МИР <q>КЕШБЕК</q></a>
+                <a href="/"><img src="https://s3.burgerkingrus.ru/uploads/media/story_details/0001/75/thumb_74663_story_details_desktop_webp.webp" alt="story5">ВЫНОС НА ПАРКОВКУ</a>
+                <a href="/"><img src="https://s3.burgerkingrus.ru/uploads/media/story_details/0001/75/thumb_74562_story_details_desktop_webp.webp" alt="story6">ЧИКЕН ТАР-ТАР</a>
+                <a href="/"><img src="https://s3.burgerkingrus.ru/uploads/media/story_details/0001/75/thumb_74612_story_details_desktop_webp.webp" alt="story7">КИНГ ТОП КОМБО</a>
+                <a href="/"><img src="https://s3.burgerkingrus.ru/uploads/media/story_details/0001/75/thumb_74311_story_details_desktop_webp.webp" alt="story8">ЗАКАЗЫВАЙ НА САЙТЕ</a>
+                <a href="/"><img src="https://s3.burgerkingrus.ru/uploads/media/story_details/0001/75/thumb_74568_story_details_desktop_webp.webp" alt="story9">ДОСТАВКА</a>
+                <a href="/"><img src="https://s3.burgerkingrus.ru/uploads/media/story_details/0001/75/thumb_74309_story_details_desktop_webp.webp" alt="story10">KING CLUB</a>
+                <a href="/"><img src="https://s3.burgerkingrus.ru/uploads/media/story_details/0001/75/thumb_74564_story_details_desktop_webp.webp" alt="story11">ТАЙНЫЙ ГОСТЬ</a>
+
+            </div>
+                <div class="burgers">
+                    <a href="https://burgerkingrus.ru/">Новинки</a>
+                    <a href="https://burgerkingrus.ru/category/76">Кинг Комбо</a>
+                    <a href="https://burgerkingrus.ru/category/72">Кинг Сет</a>
+                    <a href="https://burgerkingrus.ru/category/2">Бургеры из говядины</a>
+                    <a href="https://burgerkingrus.ru/category/3">Бургеры из курицы</a>
+                    <a href="https://burgerkingrus.ru/category/64">Креветки</a>
+                    <a href="https://burgerkingrus.ru/category/7">Роллы</a>
+                    <a href="https://burgerkingrus.ru/category/5">Соусы</a>
+                    <a href="https://burgerkingrus.ru/category/4">Картошка</a> 
+                </div>
+            <div class="bk_hold">
+                <a href="/"><img src="https://orderapp-static.burgerkingrus.ru/x512/mobile_image/4a0b8ebcef20d2347e56a294147e5644.webp">МТС Джуниор Бокс</a>
+                <a href="/"><img src="https://orderapp-static.burgerkingrus.ru/x512/mobile_image/618b68518b44d4059e9843e2a7d7172e.webp">Ангус Камамбер</a>
+                <a href="/"><img src="https://orderapp-static.burgerkingrus.ru/x256/mobile_image/4170dbaaf675abcabebf46ee565c0312.webp">Ангус Камамбер Двойной</a>
+                <br>
+                <a href="/"><img src="https://orderapp-static.burgerkingrus.ru/x256/mobile_image/802675fdc659860a30f12d4fdaffa4c0.webp">Чеддер Начос Кинг с курицей</a>
+                <a href="/"><img src="https://orderapp-static.burgerkingrus.ru/x256/mobile_image/a1bb51b586cf2eb0fc856035662c08a4.webp">Чикен Тар-Тар</a>
+                <a href="/"><img src="https://orderapp-static.burgerkingrus.ru/x256/mobile_image/87b2339f9524cfbf0e22d4ca499212c1.webp">Чеддер Начос Чикен Ролл</a>
+                <br>
+                <a href="/"><img src="https://orderapp-static.burgerkingrus.ru/x256/mobile_image/ec330d9c177a9988c719e696a8ed1467.webp">Чеддер Начос Шримп Ролл</a>
+                <a href="/"><img src="https://orderapp-static.burgerkingrus.ru/x256/mobile_image/f16f9f67e0e6370a181e244703749be2.webp">Соус Гриль Особый</a>
+                <a href="/"><img src="https://orderapp-static.burgerkingrus.ru/x256/mobile_image/6ee5d5cea401da6fdf2c57368daebb18.webp">Капучино Айриш Крим</a>
+                <br>
+                <a href="/"><img src="https://orderapp-static.burgerkingrus.ru/x256/mobile_image/89fe2c7b78a81155e5072d21c63d8b25.webp">Латте Айриш Крим</a>
+            </div>
+            <div class="finish">
+                <p>© ООО «Бургер Рус», 2023. Все права защищены.
+                    <br>
+                    TM & Copyright 2023 Burger King Corporation. All Rights Reserved.</p>
+            </div>
+    </body>
+</html>
