@@ -15,9 +15,12 @@
             }
 
             .menu {
-                display: inline-flex;
+                display: flex;
                 height: 112px;
                 position: sticky;
+                background-color: #f5ebdc;
+                top: 0;
+                z-index: 2;
             }
 
             .menu a {
@@ -29,10 +32,7 @@
                 padding-top: 0;
             }
 
-            .menu h1 {
-                float: left;
-            }
-
+            
             .sector {
                 background-color: #502314;
                 display: flex;
@@ -56,8 +56,13 @@
             }
 
             .burgers {
-                display: inline-block;
+                display: flex;
                 position: sticky;
+                background-color: #f5ebdc;
+                top: 112px;
+                border-top: 1px solid grey;
+                border-bottom: 1px solid grey;
+                z-index: 2;
             }
             
             .burgers a {
